@@ -1,9 +1,33 @@
 .body {
     background-color: #212121;
     color: aliceblue;
+    font-family: monospace;
 }
 
-.name {
+.name-div {
     display: flex;
-    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    /* margin-top: 70px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.intro {
+    margin-top: 40px;
+}
+img {
+    height: 600px;
+    width: 600px;
 }
